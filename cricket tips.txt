@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cric tips</title>
+</head>
+<style>
+    .head {
+        border: 2px solid red;
+        background-color: brown;
+
+    }
+
+    .HH1 {
+        /* border: 2px solid red; */
+        width: 30%;
+        margin-top: 6%;
+        margin-left: 40%;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    }
+    .HH2{
+        /* border: 2PX SOLID red; */
+        width: 45%;
+        margin-left:20% ;
+        
+    }
+
+    .para {
+        /* border: 2px solid red; */
+        width: 30%;
+        margin-top: 3%;
+        margin-left: 23%;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        padding-bottom: 14%;
+    }
+
+    button.first {
+        cursor: pointer;
+        padding: 18px;
+        width: 50%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    button.first:hover {
+        color: brown;
+    }
+
+    button.first:after {
+        content: '\02795';
+        font-size: 13px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    button.first.active::after {
+        content: "\2796";
+
+    }
+    a img{
+      /* border: 2px solid red;   */
+      width: 30%;
+      margin-left: 30%;
+      border-radius: 10%;
+    }
+    div.main {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    margin-left: 23%;
+    color: brown;
+}
+
+div.main.show {
+    opacity: 1;
+    max-height: 500px;
+}
+.side{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 15%;
+}
+</style>
+
+<body>
+    <div class="head">
+        <h1 class="HH1">CRICKET TIPS</h1>
+        <span class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, unde alias! Laudantium.
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</span>
+    </div>
+
+    <h2 class="HH2">
+       1. INTRODUCTION TO CRICKET
+    </h2>
+       <a href="https://youtu.be/tPdU_LhDsow"><img src="img/main.png" alt=""></a>
+       <h2 class="HH2">
+        2. ROLE OF UMPIRE
+     </h2>
+        <a href="https://youtu.be/8gEnNnzjroc"><img src="img/umpire.png" alt=""></a>
+    <h2 class="HH2">
+        3. BATTING
+    </h2>
+    <button class="first">How to play front foot defence</button>
+    <div class="main">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestile</p>
+       <p class="side">ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    <button class="first">How to play back foot defence</button>
+    <div class="main ">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p>
+            <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    <button class="first">How to play stright drive</button>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae </p> 
+         <p class="side">ullam tempora iillum rem illo perspiciatis.</p>
+    </div>
+    <button class="first">How to play off drive</button>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p>
+         <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    <button class="first">How to play square drive</button>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p>
+         <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+
+
+    <h2 class="HH2">
+        4. BOWLING
+    </h2>
+    <button class="first">Introduction to bolwing</button>
+   <div class="main">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae </p>
+       <p class="side">ullam tempora in illum rem illo perspiciatis.</p>
+   </div>
+    
+    <button class="first">How to bowl good length</button>
+   <div class="main">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p> 
+      <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+   </div>
+    
+    <button class="first">How to bowl inswinger</button>
+    <div class="main">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p>
+            <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    <button class="first">How to bowl outswinger</button>
+    <div class="main">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p> 
+       <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    
+    <button class="first">How to bowl off cutter</button>
+    <div class="main">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p> 
+       <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+    </div>
+    <h2 class="HH2">
+    5. FEILDING
+</h2>
+<button class="first">How to Catch the bowl</button>
+<div class="main">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae </p>
+   <p class="side">ullam tempora in illum rem illo perspiciatis.</p>
+</div>
+
+<button class="first">How to stop the bowl</button>
+<div class="main">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p> 
+  <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+</div>
+
+<button class="first">How to Throw the bowl</button>
+<div class="main">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p>
+        <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+</div>
+<button class="first">How to make chance of run out</button>
+<div class="main">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae</p> 
+   <p class="side"> ullam tempora in illum rem illo perspiciatis.</p>
+</div>
+<h2 class="HH2">
+    6.WICKET KEEPING
+</h2>
+<button class="first">Equipment use by the wicket keeper</button>
+<div class="main">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, voluptas culpa quibusdam molestiae </p>
+   <p class="side">ullam tempora in illum rem illo perspiciatis.</p>
+</div>
+<h2 class="HH2">
+    7. How to Replace the Grip on Your Bat
+ </h2>
+    <a href="https://youtu.be/4aLU44Rs48Q"><img src="img/grip.png" alt=""></a>
+    <h2 class="HH2">
+        8. How to Pitch the Stumps
+     </h2>
+        <a href="https://youtu.be/SlGEd_Bj2F8"><img src="img/stimps.png" alt=""></a>
+    
+
+    
+
+    <script>
+
+        var acc = document
+            .getElementsByClassName("first");
+
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList
+                    .toggle("show");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
